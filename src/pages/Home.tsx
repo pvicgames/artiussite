@@ -15,8 +15,8 @@ import seguranca_capa from "../assets/seguranca_capa.png"
 const Home = () => {
   return (
     <div className="w-screen min-h-screen overflow-x-hidden overflow-y-scroll">
-      <div className="flex justify-center">
-        <div className="relative scale-70 mt-70 ml-[-350px]">
+      <div className="flex min-h-screen justify-center items-center">
+        <div className="relative scale-70 mt-30 ml-[-350px]">
           <ReactParallaxTilt className="w-fit h-fit [transform-style:preserve-3d]">
             <img className="relative w-[500px] translate-z-[20px]" src={rene_capa} />
             <img className="absolute w-[250px] top-[-300px] left-[-60px]  translate-z-[20px] " src={tyler_capa} />
